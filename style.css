@@ -4,6 +4,8 @@
       box-sizing: border-box;
     }
 
+/* Estilos Header */
+
 header{
     background-color: #161719;
     padding: 20px 150px;
@@ -11,8 +13,6 @@ header{
     display: flex;
     justify-content: space-between;
     
-    /* justify-content: center;
-    align-content: center; */
 }
 
 .logo span{
@@ -51,3 +51,66 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+/* Estilos Hero */
+
+.hero{
+    padding: 100px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color: #1C1D1E;
+}
+
+.text_hero{
+    width: 50%;
+}
+
+.img_hero{
+    height: 250px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.img_hero img{
+    height: 100%;
+    
+}
+
+.hero h2{
+    font-size: 50px;
+    color:  #7C5FE6;
+    margin: 10px 0;
+}
+
+.hero h1{
+    font-size: 70px;
+    margin: 10px 0;
+}
+
+.hero p{
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.social_hero{
+    display: flex;
+    
+   
+    
+}
+
+.social_hero i{
+    font-size: 35px;
+    margin: 10px 20px 0 0;
+    background-color: white;
+    padding: 10px;
+    border-radius: 100%;
+    color: black;
+    
+}
+
+.social_hero i:hover{
+   background-color: #7C5FE6;;
+}
